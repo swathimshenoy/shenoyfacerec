@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { AngularFirestore} from '@angular/fire/firestore'
 
 @Component({
   selector: 'app-register-user',
@@ -7,9 +8,22 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RegisterUserComponent implements OnInit {
 
-  constructor() { }
-
+  constructor(private db: AngularFirestore) { }
+  // username : string;
+  // emailid: string;
+  // phonenumber: string;
+  // password: string;
+  user: any={};
   ngOnInit() {
   }
-
+  
+  register(){
+    this.db.collection("users").add(this.user)
+    .then(res => {
+      console.log("Success in writing data" + res);
+    },
+    err => {
+      console.log("Error in writing data" + (err));
+    })
+  }
 }

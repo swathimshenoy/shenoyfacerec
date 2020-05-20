@@ -6,8 +6,79 @@
 .register_1{
     width: 100%;
 }
-.img-background {
+/* .img-background {
     width: 779px;
     height: 620px;
     object-fit: contain;
-}
+} */
+.h4 {
+    /* width: 362px; */
+    /* height: 21px; */
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.18;
+    letter-spacing: -0.88px;
+    text-align: left;
+    color: #ffffff;
+  }
+  .h2 {
+    /* width: 441px;
+    height: 30px; */
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.19;
+    letter-spacing: -1.28px;
+    text-align: left;
+    color: #ffffff;
+  }
+  .h1 {
+    /* width: 275px;
+    height: 53px; */
+    font-family: Poppins;
+    font-size: 56px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: -2.24px;
+    text-align: left;
+    color: #ffffff;
+  }
+  .signup {
+    width: 400px;
+    height: 58px;
+    border-radius: 29px;
+    background-color: #3f87d5;
+  }
+  .start {
+        /* width: 256px;
+        height: 27px; */
+        font-family: Poppins;
+        font-size: 28px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.21;
+        letter-spacing: -0.28px;
+        /* text-align: center; */
+        color: #9a9a9a;
+  }
+  .signupnow {
+    /* width: 134px;
+    height: 19px; */
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.19;
+    letter-spacing: 1.6px;
+    text-align: center;
+    color: #ffffff;
+  }
